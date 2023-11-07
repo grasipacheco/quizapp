@@ -1,4 +1,23 @@
+body {
+  background-color: aquamarine;
+}
+
 h1 {
   color: indianred;
-  background-color: aquamarine;
+}
+
+.questionbox {
+  display: flex;
+  flex-direction: column;
+  margin: 80px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 8px;
+  text-align: justify;
+  background-color: lightgoldenrodyellow;
+}
+
+p {
+  display: block;
 }
