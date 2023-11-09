@@ -19,5 +19,9 @@ h1 {
 }
 
 p {
-  display: block;
+  display: inline-block;
+}
+
+footer {
+  text-align: ;
 }
