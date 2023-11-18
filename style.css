@@ -1,3 +1,35 @@
 header {
   background-color: hotpink;
 }
+
+.bookmark {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cards {
+  margin: 20% 10%;
+  border: 5px solid turquoise;
+  font-size: 1.5rem;
+  padding: 3% 10%;
+  text-align: center;
+  position: relative;
+}
+
+.taglist {
+  display: inline;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  height: 10vh;
+  bottom: 0px;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0; */
+}
