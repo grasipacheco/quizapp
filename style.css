@@ -23,13 +23,20 @@ header {
   flex-direction: row;
 }
 
-footer {
-  position: fixed;
-  width: 100%;
-  height: 10vh;
-  bottom: 0px;
-  /*display: flex;
+.flex {
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0; */
+  padding: 0;
+}
+
+.flex-spcbtwn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.icons {
+  color: #7980ff;
 }
