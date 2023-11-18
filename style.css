@@ -41,8 +41,7 @@ header {
   background-color: #7980ff;
 }
 
-.profile-image,
-.profile-text {
+.profile {
   display: flex;
   margin: 10px;
 }
